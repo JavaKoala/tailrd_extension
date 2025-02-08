@@ -6,10 +6,30 @@
   <body>
     <main>
       <div>
-        <h1>Does it fit?</h1>
+        <h1>Is this Tailrd?</h1>
       </div>
       <div>
         <button>Does this fit me?</button>
+      </div>
+      </div>
+        <p>Or</p>
+      </div>
+      <div>
+        <button>This item fits me</button>
+      </div>
+      <div>
+        <button popovertarget="add-measurements">Add my measurements</button>
+      </div>
+      <div id="add-measurements" popover>
+        <form method="post">
+          <label for="bust">Bust</label>
+          <input type="text" id="bust" name="bust">
+          <label for="waist">Waist</label>
+          <input type="text" id="waist" name="waist">
+          <label for="hips">Hips</label>
+          <input type="text" id="hips" name="hips">
+          <button>Submit</button>
+        </form>
       </div>
     </main>
   </body>

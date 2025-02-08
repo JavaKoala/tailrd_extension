@@ -6,3 +6,7 @@ main {
   width: 300px;
   background-color: aqua;
 }
+
+.display-none {
+  display: none;
+}
