@@ -22,12 +22,29 @@
       </div>
       <div id="add-measurements" popover>
         <form method="post">
-          <label for="bust">Bust</label>
-          <input type="text" id="bust" name="bust">
-          <label for="waist">Waist</label>
-          <input type="text" id="waist" name="waist">
-          <label for="hips">Hips</label>
-          <input type="text" id="hips" name="hips">
+          <ul>
+            <li>
+              <label for="bust">Bust</label>
+              <input type="text" id="bust" name="bust">
+            </li>
+            <li>
+              <label for="waist">Waist</label>
+              <input type="text" id="waist" name="waist">
+            </li>
+            <li>
+              <label for="hips">Hips</label>
+              <input type="text" id="hips" name="hips">
+            </li>
+            <li>
+              <label for="style">Style</label>
+              <select name="style" id="style-select">
+                <option value="">--Please choose style--</option>
+                <option value="slim">Slim</option>
+                <option value="baggy">Baggy</option>
+              </select>
+            </li>
+          </ul>
+
           <button>Submit</button>
         </form>
       </div>
