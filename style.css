@@ -36,3 +36,7 @@ button {
   padding: 0;
   align-items: left;
 }
+
+.measurements-list li {
+  margin: 10px;
+}
