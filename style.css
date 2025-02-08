@@ -33,3 +33,8 @@ button {
 p {
   color: white;
 }
+
+.measurements-list {
+  list-style-type: none;
+  padding: 0;
+}
