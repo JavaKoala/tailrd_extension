@@ -1,7 +1,6 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="popup.js"></script>
   </head>
   <body>
     <main>
@@ -10,17 +9,24 @@
           <img src="images/tailrd_full_logo_white.png" alt="Tailrd logo">
         </div>
       </div>
+
       <div class="centered">
-        <button>Will this fit me?</button>
+        <button popovertarget="fitting">Will this fit me?</button>
       </div>
+      <div id="fitting" popover="manual" popover>
+        <p id="fitting-text"></p>
+        <button>Close</button>
+      </div>
+
       <div class="centered">
         <button>This item fits me</button>
       </div>
+
       <div class="centered">
         <button popovertarget="add-measurements">My Profile</button>
       </div>
       <div id="add-measurements" popover>
-        <form method="post">
+        <form method="get">
           <ul class="measurements-list">
             <li>
               <label for="bust">Bust</label>
@@ -48,5 +54,6 @@
         </form>
       </div>
     </main>
+    <script src="popup.js"></script>
   </body>
 </html>
