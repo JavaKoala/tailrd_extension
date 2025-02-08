@@ -40,3 +40,18 @@ button {
 .measurements-list li {
   margin: 10px;
 }
+
+.measurements-list label {
+  display: inline-block;
+  width: 30px;
+  text-align: right;
+}
+
+.measurements-list select {
+  display: inline-block;
+  width: 147px;
+}
+
+.fit-select {
+  width: 50px;
+}
